@@ -1,0 +1,101 @@
+/* Reset de estilos padrão */
+body, h1, h2, h3, p, ul, li, table {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    background-image: url('https://149900815.v2.pressablecdn.com/wp-content/uploads/2021/08/Joias-Raras-Aneis-gargantilhas-dedeiras-e-diversas-outras-joias-no-marketplace-da-Superbid.jpg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+}
+
+#conteudo {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#loading {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilo do formulário */
+#formulario {
+    margin-top: 20px;
+}
+
+label {
+    width: 150px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    box-sizing: border-box;
+}
+
+input[type="button"] {
+    background-color: #50c878;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+input[type="button"]:hover {
+    background-color:#419f60;
+}
+
+/* Estilo da tabela */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #50c878;
+    color: #fff;
+}
+
+/* Botões na tabela */
+#dados td:last-child {
+    text-align: center;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    #conteudo {
+        width: 90%;
+    }
+}
